@@ -31,7 +31,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UVd-dy-ME5"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UVd-dy-ME5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9W-Pd-uJU">
@@ -42,7 +42,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxK-nh-syL"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxK-nh-syL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhc-XU-Pua">
@@ -53,7 +53,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fYH-fK-92E"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fYH-fK-92E"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tka-mp-TMZ">
@@ -64,7 +64,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzg-ic-VUT"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzg-ic-VUT"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -80,7 +80,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8BL-CF-JGP"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8BL-CF-JGP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aA-PU-XQA">
@@ -91,7 +91,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dff-7o-Seh"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dff-7o-Seh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ma9-4V-2Rd">
@@ -102,7 +102,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V9F-b8-8nA"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V9F-b8-8nA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLt-a4-Lcb">
@@ -113,7 +113,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SZb-T6-OMc"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SZb-T6-OMc"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -129,7 +129,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UoV-rJ-hIS"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UoV-rJ-hIS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gft-NK-a6n">
@@ -140,7 +140,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxg-6H-YZY"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxg-6H-YZY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIn-oM-RPM">
@@ -151,7 +151,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oky-Cy-1HM"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oky-Cy-1HM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRw-u0-DlF">
@@ -162,7 +162,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMv-ak-QCv"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMv-ak-QCv"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -178,7 +178,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x9S-SV-urO"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x9S-SV-urO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCj-ZQ-zUh">
@@ -189,7 +189,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vgK-V5-xiT"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vgK-V5-xiT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYn-mP-LfY">
@@ -200,7 +200,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jil-hP-qqP"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jil-hP-qqP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4k-oA-Mqe">
@@ -211,7 +211,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="20" height="41"/>
                                                 <connections>
-                                                    <action selector="buttonActio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BzJ-C5-1wX"/>
+                                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BzJ-C5-1wX"/>
                                                 </connections>
                                             </button>
                                         </subviews>
