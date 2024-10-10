@@ -13,18 +13,31 @@ class ViewController: UIViewController {
     var numberOfPairsOfCards: Int {
         return (buttonCollection.count + 1) / 2
     }
+    
+    private func updateTouches() {
+        let attributes: [NSAttributedString.Key: Any] = [
+            .strokeWidth: 5.0,
+            .strokeColor: UIColor.blue
+        ]
+        let attributedString = NSAttributedString(string: "Touches: \(touches)", attributes: attributes)
+        touchLabel.attributedText = attributedString
+    }
+    
     private(set) var touches = 0 {
         didSet{
-            touchLabel.text = "Touches: \(touches)"
+            updateTouches()
         }
     }
     
-    private var emojiCollection = ["🦊", "🐰", "🐶", "🐭", "🐼", "🐯", "🦁", "🐮", "🐷", "🐸", "🐵", "🐨"]
+//    private var emojiCollection = ["🦊", "🐰", "🐶", "🐭", "🐼", "🐯", "🦁", "🐮", "🐷", "🐸", "🐵", "🐨"]
+    private var emojiCollection = "🦊🐰🐶🐭🐼🐯🦁🐮🐷🐸🐵🐨🐔🦄🦋"
+
     private var emojiDictionary = [Card:String]()
     
     private func emojiIdentifier(for card: Card) -> String {
         if emojiDictionary[card] == nil {
-            emojiDictionary[card] = emojiCollection.remove(at: emojiCollection.count.arc4randomExtension)
+            let randomStringIndex = emojiCollection.index(emojiCollection.startIndex, offsetBy: emojiCollection.count.arc4randomExtension)
+            emojiDictionary[card] = String(emojiCollection.remove(at: randomStringIndex))
         }
         return emojiDictionary[card] ?? "?"
     }
@@ -44,9 +57,13 @@ class ViewController: UIViewController {
     }
     @IBOutlet private var buttonCollection: [UIButton]!
     
-    @IBOutlet private weak var touchLabel: UILabel!
+    @IBOutlet private weak var touchLabel: UILabel! {
+        didSet {
+            updateTouches()
+        }
+    }
     
-    @IBAction private func buttonActio(_ sender: UIButton) {
+    @IBAction private func buttonAction(_ sender: UIButton) {
         touches += 1
         if let buttonIndex = buttonCollection.firstIndex(of: sender) {
             game.chooseCard(at: buttonIndex)
